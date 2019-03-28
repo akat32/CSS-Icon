@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>카메라</title>
+    </head>
+    <style>
+        body {
+            background-color: darkcyan ;
+        }
+        .camera {
+            position: relative;
+            width: 40vw;
+            height: 40vw;
+            border: 0.5vw solid #fff;
+            border-radius: 50%;
+            margin: auto;
+            margin-top: 20vh;
+        }
+        .cameraBody {
+            position: absolute;
+            width: 26vw;
+            height: 18vw;
+            background-color: #fff;
+            left: 0;
+            right: 0;
+            top: 12vw;
+            border-radius: 2em;
+            margin: auto;            
+        }
+        .circle {
+            position: absolute;
+            width: 12vw;
+            height: 12vw;
+            background-color: darkcyan;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 50%;
+        }
+        .innerCircle {
+            position: absolute;
+            width: 9vw;
+            height: 9vw;
+            background-color: #fff;
+            border-radius: 50%;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .cameraHead {
+            position: absolute;
+            width: 6vw;
+            height: 0;
+            border-left: 2vw solid transparent;
+            border-right: 2vw solid transparent;
+            border-bottom: 3vw solid #fff;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 9.5vw;
+
+        }
+    </style>
+    <body>
+        <div class = "camera">
+            <div class = "cameraHead"></div>
+            <div class = "cameraBody">
+                <div class = "circle">
+                    <div class = "innerCircle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
