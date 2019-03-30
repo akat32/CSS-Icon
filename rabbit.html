@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>토끼</title>
+    <style>
+        body{ 
+            background-color: darkolivegreen;
+        }
+        .rabbit {
+            position: absolute;
+            width: 52vw;
+            height: 52vw;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            margin: auto;
+            border-radius: 50%;
+            border: 0.5vw solid palevioletred;
+        }
+        .face {
+            width: 30vw;
+            height: 30vw;
+            background-color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 19vw;
+        }
+        .ears {
+            width: 28vw;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 5vw;
+            margin: auto;
+        }
+        .leftEar, .rightEar {
+            border-radius: 4em;
+            position: absolute;
+            width: 8vw;
+            height: 27vw;
+            background-color: #fff;
+        }
+        .leftEar {
+            left: 0;
+        }
+        .rightEar {
+            right: 0;
+        }
+        .earRadius {
+            position: absolute;
+            width: 5vw;
+            height: 13vw;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 2vw;
+            border-radius: 4em;
+            background-color: pink;
+        }
+        .eyes {
+            position: absolute;
+            width: 18vw;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 9vw;
+        }
+        .lefteyeCircle, .righteyeCircle {
+            position: absolute;
+            width: 4vw;
+            height: 4vw;
+            background-color: #000;
+            border-radius: 50%;
+        }
+        .lefteyeCircle {
+            left: 0;
+        }
+        .righteyeCircle {
+            right: 0;
+        }
+        .nose {
+            position: absolute;
+            width: 10vw;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 14vw;
+        }
+        .noseCircle {
+            position: absolute;
+            width: 3vw;
+            height: 3vw;
+            border-radius: 1em;
+            background-color: #000;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        .noseLine {
+            position: absolute;
+            width: 1vw;
+            height: 2.5vw;
+            background-color: #000;
+            left: 0;
+            right: 0;
+            margin:auto;
+            top: 3vw;
+        }
+        .mouth {
+            width: 10vw;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+            top: 19vw;
+        }
+        .leftMouth, .rightMouth {
+            position: absolute;
+            width: 4vw;
+            height: 4vw;
+            border: 1vw solid #000;
+            border-radius: 50%;
+            top: -4.5vw;
+            border-color: transparent transparent #000 transparent;
+        }
+        .leftMouth {
+            left: 0;
+        }
+        .rightMouth {
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class= "rabbit">
+        <div class = "ears">
+            <div class= "leftEar">
+                <div class = "earRadius"></div>
+            </div>
+            <div class= "rightEar">
+                <div class = "earRadius"></div>
+            </div>
+        </div>
+        <div class = "face">
+            <div class="eyes">
+                <div class="leftEye">
+                    <div class="lefteyeCircle"></div>
+                </div>
+                <div class="rightEye">
+                    <div class="righteyeCircle"></div>
+                </div>
+            </div>
+            <div class="nose">
+                <div class="noseCircle"></div>
+                <div class="noseLine"></div>
+            </div>
+            <div class="mouth">
+                <div class="leftMouth"></div>
+                <div class="rightMouth"></div>
+            </div>
+        </div>
+    </div>
+</html>
